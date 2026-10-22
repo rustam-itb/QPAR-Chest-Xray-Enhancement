@@ -1,0 +1,17 @@
+experiment,n,method,mean_time_ms,mean_ssim,mean_psnr_db,mean_entropy,mean_eme,provenance
+clinical_simulated_low_dose,5856,degraded_input,,0.335,18.84,7.28,20.3,executed_original_notebook_console
+clinical_simulated_low_dose,5856,conventional,18.67,0.388,17.26,7.88,26.7,executed_original_notebook_console
+clinical_simulated_low_dose,5856,quantum_pure,31.3,0.39,20.71,7.17,12.2,executed_original_notebook_console
+clinical_simulated_low_dose,5856,box_filter,3.93,0.39,20.71,7.17,12.2,executed_original_notebook_console
+clinical_simulated_low_dose,5856,hybrid,31.41,0.394,20.53,7.85,16.4,executed_original_notebook_console
+clinical_simulated_low_dose,5856,hybrid_reversed,31.87,0.387,18.38,7.45,13.4,executed_original_notebook_console
+chest_phantom,5856,conventional,17.5,0.42,17.87,,,executed_original_notebook_console
+chest_phantom,5856,quantum_pure,37.59,0.428,20.87,,,executed_original_notebook_console
+chest_phantom,5856,box_filter,4.26,0.428,20.87,,,executed_original_notebook_console
+chest_phantom,5856,hybrid,42.21,0.38,20.41,,,executed_original_notebook_console
+chest_phantom,5856,hybrid_reversed,33.51,0.328,17.56,,,executed_original_notebook_console
+hand_phantom,5856,conventional,,0.735,24.05,,,executed_original_notebook_console
+hand_phantom,5856,quantum_pure,,0.367,24.25,,,executed_original_notebook_console
+hand_phantom,5856,box_filter,,0.367,24.25,,,executed_original_notebook_console
+hand_phantom,5856,hybrid,,0.194,22.14,,,executed_original_notebook_console
+hand_phantom,5856,hybrid_reversed,,0.177,20.79,,,executed_original_notebook_console
